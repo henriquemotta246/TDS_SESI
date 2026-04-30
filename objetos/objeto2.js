@@ -1,5 +1,5 @@
 const carro = {
-    modelo: "Hilux",
+    modelo: "civic",
     ano: 2010,
     ligar: function(){
         console.log("Carro ligado");

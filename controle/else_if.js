@@ -1,27 +1,18 @@
 
-//desafio
 
-let n1 = 2;
-let n2 = 3; 
-let n3 = 10;
-let media = 7.0;
 
-media = (n1 + n2 + n3) /2;
+// Desafio
+let n1 = 2.5;
+let n2 = 2.0;
+let n3 = 2.0;
+let media = (n1 + n2 + n3) / 3;
 
-if (media >= 7.0){
-    console.log("Aprovado");
-}else if(media <= 7.0 && media >= 5.0 ){
-    console.log("Recuperaçao");
-}else{
-    console.log("Reprovado");
-    
+if (media >= 7.5) {
+    console.log("Aprovado. Parabéns!");
+} else if (media < 7.5 && media >= 5.0) {
+    console.log("Em recuperação!");
+} else {
+    console.log("Reprovado. Estude mais!");
 }
-console.log("Media")
 
-
-  forjs
-
-
-for (let i = 0; i <= 10; i++) {
-    console.log("valor: " + i);
-}
+console.log(media);

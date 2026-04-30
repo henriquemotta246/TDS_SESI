@@ -1,17 +1,21 @@
 const produto1 = "Notebook";
 const preco1 = 3500;
 
-function exibirProdutos(){
-    console.log(`${produto1} -> ${preco1}`);
+function exibirProduto1() {
+    console.log(`${produto1} - R$ ${preco1}`);
 }
 
-const produto2 = "mouse";
+const produto2 = "Mouse Gamer";
 const preco2 = 150;
 
-//Desafio: criar segunda function produto2
-
-function exibirProduto2(){
-    console.log(`${produto2} -> ${preco2}`);
+function exibirProduto2() {
+    console.log(`${produto2} - R$ ${preco2}`);
 }
-exibirProdutos();
+
+exibirProduto1();
+exibirProduto1();
+exibirProduto1();
+
+exibirProduto2();
+exibirProduto2();
 exibirProduto2();

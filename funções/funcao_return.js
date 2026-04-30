@@ -1,11 +1,10 @@
- function calcularTotal (preco1, preco2) {
-    return preco1 + preco2;
- }
- 
- let resultadov = calcularTotal(30, 50); // somar
+function calcularTotal (preco1, preco2) {
+   return preco1 + preco2;
+}
 
- //Desafio: Impimir concatenando e com tamplete string
+let resultado = calcularTotal(30, 50); // Somar
 
- console.log("O total da compra é:" + resultado); // concatenando
- console.log(`O total da compra é: ${resultado}`); // tamplete string
+// Desafio: Imprimir concatenando e com template string
 
+console.log("O total da compra é: " + resultado); // Concatenando
+console.log(`O total da compra é: ${resultado}`); // Template string

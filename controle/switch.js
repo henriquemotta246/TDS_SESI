@@ -11,7 +11,7 @@ switch (dia) {
         break;
     case 4:
         console.log("Quarta-feira");
-        break
+        break;
     case 5:
         console.log("Quinta-feira");
         break;
@@ -19,21 +19,9 @@ switch (dia) {
         console.log("Sexta-feira");
         break;
     case 7:
-        console.log("Sabado");
+        console.log("Sábado");
         break;
-
     default:
-        console.log("Numero invalida");
-        break;
+        console.log("Número inválido");   
 }
-        console.log("Dia");
-
-
-
-   template_string.js
-
-
-let idade = 16 ;
-// imprimir no terminal o nome e a idade junto com uma frase.
-console.log(`Meu nome é ${nome}  e tenho  ${idade} anos de idade.`);
-let nome = "Joao Zuchelli";
+ 
